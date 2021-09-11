@@ -11,37 +11,43 @@ a{
 h1{
   font-size:70px;
   text-align:center;
-  border-bottom:1px solid gray;
+  border-bottom:3px solid gray;
   margin:0;
   padding:25px
 }
 ol{
-  border-right:1px solid gray;
-  width:120px;
+  border-right:3px solid gray;
+  width:90px;
   margin:0;
-  padding:3px
+  padding:10px;
 }
-
-.saw{
-  color:gray;
+#grid{
+  display:grid;
+  grid-template-columns:150px 1fr;
 }
-#shin1{
-  color:red;
+#mma{
+  padding:45px;
+  padding-top:25px;
 }
-
-
+#grid ol{
+  padding:33px;
+}
+h2{
+  margin:0;
+}
   </style>
-
 </head>
-<body>
+<body style="margin-left:0">
   <h1><a href="index.html"style="color:black">WEB</a></h1>
+<div id="grid">
   <ol>
-    <li><a href="1.html" class="saw">HTML</a></li>
-    <li><a href="2.html" class="saw" id="shin1">CSS</a></li>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
-
   </ol>
+  <div id="mma">
 <h2>CSS</h2>
+<p>
 HTML 이 무엇인지, 그리고 문서를 마크 업하는 데 사용되는 방법에 대해 설명했습니다.
 이 문서는 웹 브라우저에서 읽을 수 있습니다.
 제목은 일반 텍스트보다 크게 보이며, 단락은 줄바꿈이 되고 공백이 있습니다.
@@ -50,7 +56,7 @@ HTML 이 무엇인지, 그리고 문서를 마크 업하는 데 사용되는 방
 페이지 작성자가 명시적인 스타일을 지정하지 않은 경우에도
 기본적으로 읽을 수 있도록 브라우저가 HTML에 적용하는 매우 기본적인
 스타일입니다.
-
-
+</div>
+</div>
 </body>
 </html>
