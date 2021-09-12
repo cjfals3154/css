@@ -3,15 +3,56 @@
 <head>
   <title>철민이의 JavaScript</title>
   <meta charset="utf-8">
+  <style>
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  h1{
+    font-size:60px;
+    text-align:center;
+    border-bottom:6px solid green;
+    margin:0px;
+    padding:10px;
+  }
+  ol{
+    border-right:6px solid green;
+    width:90px;
+    margin:0;
+  }
+#grid{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+
+}
+#mma{
+  margin-left:20px;
+}
+@media(max-width:800px){
+h1{
+  border-bottom:none;
+}
+ol{
+  border-right:none;
+}
+#grid{
+  display:block;
+}
+}
+  </style>
 </head>
-<body>
+<body style="margin-left:0px">
   <h1><a href="index.html">WEB</a></h1>
+  <div id=grid>
   <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
   </ol>
+  <div id=mma>
 <h2>JavaScript</h2>
 JavsScript는 정말 좋은 기능이다.
+</div>
+</div>
 </body>
 </html>
